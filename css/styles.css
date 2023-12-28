@@ -9,6 +9,9 @@ ul {
     margin-bottom: 0;
     padding-left: 0;
 }
+img {
+    display: block;
+}
 h1,
 h2,
 h3,
@@ -59,6 +62,7 @@ p {
 .header {
 border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
+
 .header-container {
     display: flex;
     align-items: center;

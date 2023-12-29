@@ -192,7 +192,7 @@ border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     display: flex;
     gap: 24px;
 }
-.benefits-section-item {
+.benefits-list-item {
     width: calc((100% - 72px) / 4);
 }
 

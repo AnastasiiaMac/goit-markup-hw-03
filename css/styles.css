@@ -72,7 +72,7 @@ border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     display: flex;
     align-items: center;
     flex-grow: 1;
-    gap: 76px;
+    
 }
 .logo {
     color: #4D5AE5;
@@ -83,7 +83,8 @@ border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
-    display: inline-block;   
+    display: inline-block;
+    margin-right: 76px
 }
 .logo-studio {
     color: #2E2F42;  
@@ -240,7 +241,7 @@ border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     border-left: 1px solid var(--CORNFLOWER, #E7E9FC);
     border-right: 1px solid var(--CORNFLOWER, #E7E9FC);
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-    padding-left: 16px;
+    padding: 32px 16px;
 }
 /* -------------------------FOOTER------------------------ */
 

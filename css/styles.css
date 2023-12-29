@@ -150,6 +150,7 @@ border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 
 .main-button {
     height: 56px;
+    min-width: 169px;
     padding: 16px 32px;
     font-family: Roboto, sans-serif;
     color:#FFF;  
@@ -158,6 +159,7 @@ border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
+    display: block;
     border: none;
     cursor: pointer;
 }
@@ -189,7 +191,7 @@ border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     gap: 24px;
 }
 .benefits-section-item {
-    width: calc((100% - 72px) / 4);;
+    width: calc((100% - 72px) / 4);
 }
 
 /*----------------- OUR TEAM SECTION------------------------ */

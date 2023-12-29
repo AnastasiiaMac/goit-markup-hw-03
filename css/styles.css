@@ -94,12 +94,14 @@ border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
 .nav-list-item { 
+    display: flex;
     color: #2E2F42;
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .nav-list-item:hover,
 .nav-list-item:focus,
